@@ -8,7 +8,8 @@ int main(){
     c = tolower(c);
     while (str[point] != '\0') {
         if ( tolower(str[point]) == c ) {
-            in[point1] = point; point1++;
+            in[point1] = point;
+            point1++;
             count++;
         }
         point++;
